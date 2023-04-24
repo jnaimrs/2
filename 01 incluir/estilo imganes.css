@@ -1,0 +1,40 @@
+*{
+    padding-top: 6px;
+    margin: 1px 8px 5px;
+
+}
+body{
+    background-color: brown;
+
+}
+.conteiner{
+    width: 1000px;
+    height: 500px;
+    background-color: chartreuse;
+    box-shadow: -6px 6px 1px #ffff;
+    padding-top: 50px;
+    padding-left: 20px;
+    margin: auto;
+    
+}
+#dos{
+    background-color: darkblue;
+    width: 300px;
+    height: 200px;
+    transition: all 15s ease;
+    float: left;
+}
+.grande:hover{
+    -webkit-transform: scale(1.9);
+    -ms-transform: scale(1.9);
+    transform: scale(0.8);
+
+}
+.chico:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.circulo,img:hover{
+    border-radius: 50%;
+}
